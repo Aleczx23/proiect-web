@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profilul meu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Alexandra Rus</h1>
+      <p><strong>Email:</strong> alexandra@example.com</p>
+      <p><strong>Telefon:</strong> 0712345678</p>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Adaugă contact</h2>
+      <form id="form" novalidate>
+        <input id="nume" placeholder="Nume">
+        <small class="err" id="err-nume"></small>
+        <input id="prenume" placeholder="Prenume">
+        <small class="err" id="err-prenume"></small>
+        <input id="email" placeholder="Email">
+        <small class="err" id="err-email"></small>
+        <input id="telefon" placeholder="Telefon">
+        <small class="err" id="err-telefon"></small>
+        <button type="submit">Adaugă</button>
+      </form>
+      <ul id="lista"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
