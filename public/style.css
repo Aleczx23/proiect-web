@@ -14,3 +14,8 @@ button { padding: 10px; background: #2563eb; color: #fff; border: none; border-r
 @media (max-width: 700px) {
   .container { grid-template-columns: 1fr; }
 }
+.full { grid-column: 1 / -1; }
+.cautare { flex-direction: row; gap: 8px; }
+.cautare input { flex: 1; }
+#status.eroare { color: #dc2626; }
+#rezultate li { padding: 8px 0; border-bottom: 1px solid #eee; }
